@@ -1,0 +1,3 @@
+# Call the wizard with an api call to update madmin apks
+curl -X POST --user "Username:Password" -H 'Content-Type: application/json-rpc' -d '{"call": "search_download"}' http://localhost:5000/api/mad_apk
+
